@@ -9,7 +9,7 @@ const GreetingF = (props) => {
     const [age, setage] = useState(29);
 
     const birthday = () => {
-        setage(age + 1);
+        setage(age + 1); // * Esta es la forma análoga de cambiar el estado de un componente
     }
 
     return (
